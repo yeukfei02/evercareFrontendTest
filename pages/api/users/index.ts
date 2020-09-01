@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
 
-const ROOT_URL = `https://localhost:3000/api`;
+const ROOT_URL = `http://localhost:3000/api`;
 
 export default async (_req: NextApiRequest, res: NextApiResponse) => {
   try {
