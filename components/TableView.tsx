@@ -27,9 +27,9 @@ interface Users {
 function TableView(props: any): JSX.Element {
   const classes = useStyles();
 
-  const handleDeleteUser = (id: string) => {
+  const handleDeleteUser = async (id: string) => {
     if (id) {
-      deleteUserById(id);
+      await deleteUserById(id);
     }
   };
 
@@ -40,6 +40,7 @@ function TableView(props: any): JSX.Element {
       console.log('responseJSON = ', responseJSON);
 
       if (responseJSON.result) {
+        props.getUsersList();
       }
     }
   };

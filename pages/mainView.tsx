@@ -32,7 +32,7 @@ function MainView(): JSX.Element {
 
   return (
     <div style={{ padding: 60 }}>
-      <TableView usersList={usersList} />
+      <TableView usersList={usersList} getUsersList={() => getUsersList()} />
     </div>
   );
 }
