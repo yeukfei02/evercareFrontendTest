@@ -2,7 +2,7 @@ import React from 'react';
 
 import MainView from './mainView';
 
-function IndexPage(): JSX.Element {
+function MainPage(): JSX.Element {
   return (
     <div>
       <MainView />
@@ -10,4 +10,4 @@ function IndexPage(): JSX.Element {
   );
 }
 
-export default IndexPage;
+export default MainPage;

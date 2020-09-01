@@ -13,7 +13,7 @@ function MainView(): JSX.Element {
   const [usersList, setUsersList] = useState<Users[]>([]);
 
   useEffect(() => {
-    getUsersList();
+    // getUsersList();
   }, []);
 
   const getUsersList = async () => {
