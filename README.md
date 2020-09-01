@@ -1,7 +1,7 @@
 # evercareFrontendTest
 
 <p align="center">
-  <img width="30%" height="30%" src="https://github.com/yeukfei02/evercareFrontendTest/blob/master/screenshot1.png" alt="">
+  <img width="90%" height="90%" src="https://github.com/yeukfei02/evercareFrontendTest/blob/master/screenshot1.png" alt="">
 </p>
 
 evercareFrontendTest
