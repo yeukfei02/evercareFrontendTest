@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import TableView from '../components/TableView';
+
 interface Users {
   id: string;
   lastName: string;
@@ -13,11 +15,11 @@ function MainView(): JSX.Element {
   const [usersList, setUsersList] = useState<Users[]>([]);
 
   useEffect(() => {
-    // getUsersList();
+    getUsersList();
   }, []);
 
   const getUsersList = async () => {
-    const response = await fetch('/api/users');
+    const response = await fetch(`/api/users`);
     if (response) {
       const responseJSON = await response.json();
       console.log('responseJSON = ', responseJSON);
@@ -29,8 +31,8 @@ function MainView(): JSX.Element {
   };
 
   return (
-    <div>
-      <h1>MainView</h1>
+    <div style={{ padding: 60 }}>
+      <TableView usersList={usersList} />
     </div>
   );
 }
