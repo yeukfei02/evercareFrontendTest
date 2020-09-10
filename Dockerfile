@@ -10,4 +10,4 @@ RUN yarn
 
 RUN yarn run build
 
-CMD [ "yarn", "run", "production" ]
+CMD [ "yarn", "run", "start" ]
