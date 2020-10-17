@@ -7,10 +7,12 @@
 evercareFrontendTest
 
 ## Requirement:
- - install yarn
- - install node (v12+)
+
+- install yarn
+- install node (v12+)
 
 ## Testing and run:
+
 ```
 $ yarn
 
@@ -31,51 +33,18 @@ open localhost:5000
 
 ## Docker:
 
-- Dockerfile
-
-build images and start container
 ```
-docker build -t <username>/evercare-frontend-test:<tag> .
-docker run -p 5000:5000 -d <username>/evercare-frontend-test:<tag>
-docker exec -it <containerId> /bin/bash
-docker logs <containerId>
-```
-
-check images and container
-```
-docker images
-docker ps
-docker ps -a
-```
-
-open localhost:5000
-
-- docker-compose.yml
-
-build images and start container
-```
-docker-compose build
-docker-compose up
-```
-
-build images and start container in one line
-```
+// build images and start container in one line
 docker-compose up -d --build
-```
 
-stop container
-```
-docker-compose stop
-```
+// go inside container
+docker exec -it <containerId> /bin/bash
 
-add tag to docker images
-```
-$ docker tag <imageId> <dockerHubUserName>/<imageName>:<tag>
-```
+// check container logs
+docker logs <containerId>
 
-push docker images to docker hub
-```
-$ docker push <dockerHubUserName>/<imageName>:<tag>
+// remove and stop container
+docker-compose down
 ```
 
 open localhost:5000
