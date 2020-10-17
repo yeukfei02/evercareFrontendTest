@@ -1,6 +1,6 @@
 {
   "name": "evercare-frontend-test",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
