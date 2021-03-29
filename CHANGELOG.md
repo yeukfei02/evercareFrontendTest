@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/yeukfei02/evercareFrontendTest/compare/v1.1.3...v1.1.4) (2021-03-29)
+
+
+### Bug Fixes
+
+* 🐛 fix package.json ([fa35c82](https://github.com/yeukfei02/evercareFrontendTest/commit/fa35c82a49e49693078cd7fbd0029d7ff1717b17))
+* 🐛 fix ts version ([072c97c](https://github.com/yeukfei02/evercareFrontendTest/commit/072c97c771ab0d4d5ec7833fc92269019e58e2e0))
+
 ### [1.1.3](https://github.com/yeukfei02/evercareFrontendTest/compare/v1.1.2...v1.1.3) (2020-10-18)
 
 ### [1.1.2](https://github.com/yeukfei02/evercareFrontendTest/compare/v1.1.1...v1.1.2) (2020-10-17)
